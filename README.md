@@ -8,7 +8,7 @@ First Milestone
   Initial metrics on the VIT model 
   
   Contributions:
-   Anzi & Michelle: pre-processing images to png files, labeling images
-   Anzi: implementing the VIT model (from lab) and get initial metrics
-   Michelle: working on implementing the MemSem model (from literature)
+   Anzi & Michelle: pre-processing images to png files, labeling images 
+   Anzi: implementing the VIT model (from lab) and get initial metrics 
+   Michelle: working on implementing the MemSem model (from literature) 
     
