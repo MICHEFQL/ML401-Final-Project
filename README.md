@@ -12,7 +12,7 @@ First Milestone
   
    Anzi & Michelle: pre-processing images to png files, labeling images 
    
-   Anzi: implementing the VIT model (from lab) and get initial metrics 
+   Anzi: implemented the VIT model (from lab) and getting initial metrics 
    
-   Michelle: working on implementing the MemSem model (from literature) 
+   Michelle: created pre-processed dataset on kaggle and worked on implementing the MemSem model (from literature) 
     
