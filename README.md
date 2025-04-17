@@ -18,7 +18,8 @@ First Milestone
 
 
 Notes:
-   500 labels, 80% split, finetune a little bit to maybe prove 
+   500 labels, 80% split, finetune a little bit (2 epochs?) to maybe prove 
 
-   in literature find the task the model is tested on
+  https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10690800
+  ViT 87% accuracy on human sentiment recognition
     
