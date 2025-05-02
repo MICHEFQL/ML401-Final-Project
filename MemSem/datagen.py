@@ -40,3 +40,5 @@ for dirname, _, filenames in os.walk('./dataset/cat-memes-data-v-anzi/'):
 with open("data.pkl", "wb") as pickle_out:
     pickle.dump(data, pickle_out)
 pickle_out.close()
+
+print("done preprocessing")
