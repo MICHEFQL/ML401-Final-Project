@@ -8,8 +8,8 @@ In this project, we examine vision models' ability to analyze sentiment in cat m
 3. MemSem:
     1. MemSem is adapted from an existing codebase from a literature (Pranesh and Shekhar).
     2. The original dataset which contains 2282 cat memes in png format without text can be previewed and downloaded at [282 cat memes in png format without text](https://www.kaggle.com/datasets/michefqli/401-data-v-anzi).
-    3. We have labeled 500 memes which can be found in dataset.csv; the images are stored in the Dataset folder by their labels (done with datagen_1.py).
-    4. In the MemSem folder, the model.py has been adapted to work with this dataset (no text input), user should not need to modify anything in model.py and preprocessing.py to replicate our results except one line in predict() function in model.py.
+    3. We have labeled 500 memes which can be found in dataset.csv; the images are stored in the Dataset folder by their labels (done with datagen_1.py in MemSem).
+    4. In the MemSem folder, the model.py has been adapted to work with this dataset (no text input), user should not need to modify anything in model.py and preprocessing.py to replicate our results except one line in predict() function in model.py (explained below).
     5. The dataset is split into 450 images for training which are further split into training set and validation set in the training process and 50 images for testing.
     6. To train the model, first replace the value of image_folder in train.py with the local path for the downloaded data folder from Kaggle or directly link to Kaggle. Then running train.py will train the model with our dataset and automatically save the updated weights. (The random seed was set to 42 for consistent results) The initial metrics on the test set before training will be printed out in the console at the bottom. To get the final metrics on the test set after finetuning, uncomment line 208 (model.load_weights('./MemSem.weights.h5') in model.py in the predict function which will make predictions with the trained model, then run model.py and line 46 - 64 (code for printing the test set metrics) in train.py again. 
 
@@ -24,3 +24,8 @@ Anzi:
 4. Analyzed results, wrote 4 sections of the poster and 2+0.5+0.5 sections of the artifact (3 hrs)
 
 Michelle: 
+1. Brainstormed and drafted the initial sketch for proposal, including introduction/motivation, data/model orientation, 3 literature reviews, and part of the methods. (4 hrs)
+2. Preprocessed images, created dataset (done in parallel with Anzi, we ended up using Anzi's version of the preprocessed dataset) and uploaded the dataset to Kaggle. (3 hrs)
+3. Labeled ~ 350 cat memes including initial labeling and human cross-validation. (5 hrs)
+4. Adapted the MemSem codebase for our task, specifically modifying the pipeline to work with our dataset and creating a test set and its evaluations which were not present in the original script. (20 hrs)
+5. Compiled and analyzed all the results, wrote the background, summary + conclusion, and a part of the results section for the poster. Wrote replication instructions for MemSem and own contributions in the artifact. (3.5 hrs)
