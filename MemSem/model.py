@@ -100,7 +100,7 @@ class Classifier:
         dense = Dense(2742, activation='sigmoid')(flat)
         dense = Dense(256, activation='sigmoid')(dense)
         img_repr = Dropout(0.3)(dense)
-        #changed activations from relu to sigmoid, dropout from 0.4 to 0.2
+        #changed activations from relu to sigmoid, dropout from 0.4 to 0.3
         dense = Dense(64, activation='relu')(img_repr)
         out = Dense(3, activation='softmax')(dense)
 
