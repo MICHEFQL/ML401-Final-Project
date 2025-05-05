@@ -4,8 +4,8 @@ In this project, we examine vision models' ability to analyze sentiment in cat m
 
 ## Replication instructions
 1. Clone GitHub repository
-2. Load evaluate.ipynb in Google Colab and run the script to evaluate ViT model
-3. ADD INSTRUCTION FOR MEMESEM
+2. ViT: Load evaluate.ipynb in Google Colab and run the script to evaluate ViT model
+3. MemSem: 
 
 ## Future Directions
 Future work can extend and improve this project from two aspects. From a training perspective, the models would likely benefit from a larger training dataset, particularly with increased representation of the positive class, where ViT currently underperforms. We currently have only labeled 500 cat memes, where only 400 can be used for training. From a data perspective, labeling reliability could be improved by having each image annotated by multiple individuals, followed by cross-validation to ensure consistency. Recruiting labelers from a more diverse population would also be helpful, as people's judgments on cat memes may be influenced by their online identities and cultural backgrounds.
